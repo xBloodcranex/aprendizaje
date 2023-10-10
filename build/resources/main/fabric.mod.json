@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "tutorialmod",
+  "version": "1.0-SNAPSHOT",
+  "name": "tutorialmod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/zurie/tutorialmod"
+  },
+  "license": "MIT",
+  "icon": "assets/tutorialmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.blc.tutorialmod.client.TutorialmodClient"
+    ],
+    "main": [
+      "net.blc.tutorialmod.Tutorialmod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "fabric": "*",
+    "minecraft": "1.19.4"
+  }
+}
